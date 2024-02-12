@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/androidbulb/CircleImageViewLibrary/blob/master/library_preview.jpeg" width="30%" alt="SketchIDE Logo">
+</p>
+
 # Efficient Canvas CircleImageView
 
 
