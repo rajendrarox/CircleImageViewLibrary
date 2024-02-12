@@ -28,10 +28,21 @@ dependencies {
 ```
 
 ## Step 3.
->Efficient CircleImageView Canvas in your Activity.xml
+>Efficient CircleImageView Canvas in your View.xml Example
 
 ```kotlin
-Add soon...
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <com.androidbulb.circleimage.CircleImageView
+            android:id="@+id/img_icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/test" />
+
+    </LinearLayout>
 
 ```
 
