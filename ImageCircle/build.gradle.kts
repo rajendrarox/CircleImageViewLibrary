@@ -29,6 +29,24 @@ android {
     }
 }
 
+//Punlishing AAR By AndroidBULB
+publishing {
+    publications {
+        create<MavenPublication>("bar") {
+            groupId = "com.github.androidbulb"
+            artifactId = "CircleImageViewLibrary"
+            version = "1.0"
+
+            pom {
+                description = "This is Circle Image Library Created By Androidbulb"
+            }
+        }
+    }
+    repositories {               // << --- ADD This
+        mavenLocal()
+    }
+}
+
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")

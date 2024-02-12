@@ -5,4 +5,5 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=ImageCircle-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.androidbulb -DartifactId=MyLibrary1 -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.androidbulb -DartifactId=CircleImageViewLibrary -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+
